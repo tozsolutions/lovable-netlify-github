@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import data from 'data/quotes.json';
 
-export const dynamic = 'force-dynamic'; // Otherwise, Next.js will cache this handler's output
+export const dynamic = 'error'; // veya hiç kullanma
 
 const dataSource = 'https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movie_Quotes';
 
